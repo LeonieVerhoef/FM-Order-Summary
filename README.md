@@ -1,2 +1,1 @@
-# FM-Order-Summary
-An order summary made with HTML/CSS
+# 👋🏼 Thank you for checking out my webpage. I appreciate it! 👋🏼
