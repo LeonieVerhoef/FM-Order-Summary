@@ -1,0 +1,114 @@
+html {
+    --color-pale-blue: hsl(225, 100%, 94%);
+    --color-bright-blue: hsl(245, 75%, 52%);
+    --color-very-pale-blue: hsl(225, 100%, 98%);
+    --color-desaturated-blue: hsl(224, 23%, 55%);
+    --color-dark-blue: hsl(223, 47%, 23%);
+    font-size: calc(65% + 0.8vmin);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-color: var(--color-pale-blue);
+    background-repeat: no-repeat;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+
+
+    max-width: 25rem;
+    margin: 1rem;
+
+    background-color: var(--color-very-pale-blue);
+
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.photo {
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+}
+
+.content {
+    padding: 2rem;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--color-dark-blue);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: 500;
+    color: var(--color-desaturated-blue);
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.price-plan {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.price-plan img {
+    margin-right: 2rem;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-desaturated-blue);
+    margin-right: 5rem;
+}
+
+.price span {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--color-dark-blue);
+}
+
+.price-plan a {
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.proceed-button {
+    color: var(--color-very-pale-blue);
+    text-decoration: none;
+    background-color: var(--color-bright-blue);
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0.7rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.2rem 2.8rem 0 rgba(18, 116, 182, 0.3);
+}
+
+.cancel-button {
+    color: var(--color-desaturated-blue);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
