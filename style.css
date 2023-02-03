@@ -104,7 +104,7 @@ p {
     padding: 1rem 0;
     border-radius: 0.7rem;
     margin-bottom: 2rem;
-    box-shadow: 0 0.2rem 2.8rem 0 rgba(18, 116, 182, 0.3);
+    box-shadow: 0 0.5rem 1rem 0 rgba(18, 116, 182, 0.3);
 }
 
 .cancel-button {
