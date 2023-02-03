@@ -35,7 +35,7 @@ main {
     max-width: 25rem;
     margin: 1rem;
 
-    background-color: var(--color-very-pale-blue);
+    background-color: white;
 
     border-radius: 1rem;
     overflow: hidden;
